@@ -11,7 +11,7 @@
   </head>
   <body>
     <header class="header"> 
-      <nav>
+      <nav aria-label="основная">
         <ul class="header-list">
           <li>
             <a class="header-list-link current" href="#">
@@ -50,7 +50,7 @@
           <p class="cover-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="cover-button">
+          <button class="cover-button" type="button">
             Сделать ставку
           </button>
         </div>
@@ -62,9 +62,9 @@
         <ul class="lots-list">
           <li>
             <a class="lots-list-link" href="#">
-              <article class="lots-card lots-card-one"> 
+              <article class="lots-card lots-card-film"> 
                 <h3 class="lots-card-heading">
-                  Фильм режиссера,который бросил киношколу
+                  Фильм режиссера, который бросил киношколу
                 </h3>
                 <p class="lots-card-description">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -74,7 +74,7 @@
           </li>
           <li>
             <a class="lots-list-link" href="#">
-              <article class="lots-card lots-card-two"> 
+              <article class="lots-card lots-card-book"> 
                 <h3 class="lots-card-heading">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -86,7 +86,7 @@
           </li>
           <li>
             <a class="lots-list-link" href="#">
-              <article class="lots-card lots-card-three"> 
+              <article class="lots-card lots-card-pictures"> 
                 <h3 class="lots-card-heading">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -97,11 +97,11 @@
             </a>
           </li>
         </ul>
-        <div class="lots-link-wrapper">
+        <p class="lots-link-wrapper">
           <a class="lots-link" href="#">
             посмотреть больше
           </a>
-        </div>
+        </p>
       </section>
       <section class="about">
         <div class="about-logo">
@@ -113,52 +113,53 @@
           </h2>
           <div class="about-text-wrapper">
             <p class="about-text">
-              Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
-            </p>
+              Здесь вы&nbsp;не&nbsp;встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не&nbsp;должны были попасть ни&nbsp;на&nbsp;один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
             <p class="about-text">
-              Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В&nbsp;пух и&nbsp;прах растерзанные критиками. Непринятые и&nbsp;непонятые. Когда-то они казались просто неудачными. Но, несмотря
+на&nbsp;критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в&nbsp;эти вещи не&nbsp;верил никто, продолжали верить их&nbsp;создатели. И&nbsp;сейчас эти лоты стали культовыми.
             </p>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <address class="address"> 
+      <address class="address footer-address"> 
         <a class="address-link" href="tel:99995555555">+9 999 555 5555</a>
         <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address-text">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
-      <ul class="footer-list">
-        <li>
-          <a class="footer-list-link current" href="#">
-            главная
-          </a>
-        </li>
-        <li>
+      <nav>
+        <ul class="footer-list">
+         <li>
+           <a class="footer-list-link current" href="#">
+             главная
+            </a>
+          </li>
+         <li>
           <a class="footer-list-link" href="#">
             посмотреть лоты
           </a>
-        </li>
-        <li>
-          <a class="footer-list-link" href="#">
-            об аукционе
-          </a>
-        </li>
-      </ul>
+          </li>
+          <li>
+            <a class="footer-list-link" href="#">
+              об аукционе
+            </a>
+          </li>
+        </ul>
+      </nav>
       <ul class="footer-socials">
         <li>
-          <a class="footer-socicials-link" href="#">
+          <a class="footer-socicials-link" href="#" target="_blank">
             <img src="images/yt.svg" width="48" height="48" alt="Страница проекта в Ютюб">
           </a>
         </li>
        <li>
-          <a class="footer-socicials-link" href="#">
+          <a class="footer-socicials-link" href="#" target="_blank">
              <img src="images/vk.svg" width="48" height="48" alt="Страница проекта в ВК">
           </a>
         </li>
         <li>
-          <a class="footer-socicials-link" href="#">
+          <a class="footer-socicials-link" href="#" target="_blank">
              <img src="images/pinterest.svg" width="48" height="48" alt="Страница проекта в Пинтерест">
           </a>
         </li>
